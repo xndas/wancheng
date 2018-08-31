@@ -6,13 +6,12 @@
 </head>
 <body>
 
-<p>点击按钮创建 Month 字段。</p>
+<p>点击按钮创建本地时间字段</p>
 <button onclick="myFunction()">点我</button>
 <script>
 function myFunction() {
     var x = document.createElement("INPUT");
-    x.setAttribute("type", "month");
-    x.setAttribute("value", "2014-01");
+    x.setAttribute("type", "datetime-local");
     document.body.appendChild(x);
 }
 </script>
